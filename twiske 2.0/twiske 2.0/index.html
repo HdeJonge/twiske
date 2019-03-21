@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Naamloos document</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="style2.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto|Ubuntu|Poppins|Montserrat|Roboto Condensed|Slabo 27px|Quicksand|Vollkorn|Cardo|Playfair Display SC|Barlow Semi Condensed|" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+    .mySlides {
+      display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+      cursor: pointer
+    }
+
+    .w3-badge {
+      height: 13px;
+      width: 13px;
+      padding: 0
+    }
+
+    .box h3{
+        text-align:center;
+        position:relative;
+        top:80px;
+    }
+    .box {
+        width:70%;
+        height:200px;
+        background:#FFF;
+        margin:40px auto;
+    }
+
+    /*==================================================
+     * Effect 2
+     * ===============================================*/
+    .effect2
+    {
+      position: relative;
+    }
+    .effect2:before, .effect2:after
+    {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      bottom: 15px;
+      left: 10px;
+      width: 50%;
+      top: 80%;
+      max-width:300px;
+      background: #777;
+      box-shadow: 0 15px 10px #777;
+      transform: rotate(-3deg);
+    }
+    .effect2:after
+    {
+      transform: rotate(3deg);
+      right: 10px;
+      left: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="index.html">
+        <img src="logo288px.png" width="288" height="75" alt="" />
+      </a>
+      <div class="menuwrap">
+        <a href="programma.html" class="btn btn-programma">
+          <p>Programma</p>
+        </a>
+        <a href="#" class="btn btn-jeugd">
+          <p>Jeugd</p>
+        </a>
+        <a href="#" class="btn  btn-menu">
+          <p class="btn-menu">Menu</p>
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="w3-display-container">
+      <img class="mySlides" src="first.jpg" style="width:100%">
+      <img class="mySlides" src="second.jpg" style="width:100%">
+      <img class="mySlides" src="third.jpg" style="width:100%">
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+    <div class="articleWrapper">
+      <div class="show-header"><h1>BINNENKORT IN TWISKE THEATER</h1></div>
+      <div class="box effect2">
+    <h3>Effect 5</h3>
+</div>
+      <div class="show group">
+        <div class="image">
+          <img src="second-sm.jpg">
+        </div>
+        <div class="side">
+          <div class="info">
+            <h1>De Waarheid</h1>
+            <h2>Huub Stapel, Johanna ter Steege e.a.</h2>
+            <p>De in Parijs geboren roman- en toneelschrijver Florian Zeller blijft zijn publiek verbazen, vermaken en verontrusten. Zodra u denkt dat u weet wat er speelt, begint het pas echt…<p>
+            <a href="#">bekijk & bestel <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="review">
+            <p>"Huub Stapel zeer overtuigend als steeds sluwere leugenaar"</p>
+          </div>
+        </div>
+      </div>
+      <div class="show group">
+        <div class="image">
+          <img src="third-sm.jpg">
+        </div>
+        <div class="side">
+          <div class="info">
+            <h1>Rapalje</h1>
+            <h2>Still into Folk</h2>
+            <p>
+              Into Folk in een nieuwe jas, of liever gezegd... een nieuwe kilt. Tweeduizend jaar geleden werden de Kelten verdreven van het vasteland van Europa. Alle Kelten? Nee, één band bleef dapper weerstand bieden aan de toestroom van nieuwerwetse pop en rock en vond zo zijn eigen plek in de wereld van de moderne muziek.</p>
+            <a href="#">bekijk & bestel <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="review">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nihil exercitationem sint distinctio voluptates delectus, velit debitis quod saepe. Dignissimos!"</p>
+          </div>
+        </div>
+      </div>
+      <div class="show group">
+        <div class="image">
+          <img src="first-sm.jpg">
+        </div>
+        <div class="side">
+          <div class="info">
+            <h1>Czaar Peter Operette </h1>
+            <h2>Der Bettelstudent</h2>
+            <p>Nog nooit gezien? Dan moet je ‘m nu gaan zien.
+Al wel ‘ns gezien? Dan niet deze versie. Deze is beter dan al het voorgaande.
+Zijn we overmoedig? Dan dagen we u uit en horen het graag na afloop!
+            </p>
+            <a href="#">bekijk & bestel <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="review">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nihil exercitationem sint distinctio voluptates delectus, velit debitis quod saepe. Dignissimos!"</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="sm">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="slider.js"></script>
+
+</html>

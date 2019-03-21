@@ -1,0 +1,180 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlo Semi Condensed', sans-serif;
+    font-size: 24px;
+}
+.menubar {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    overflow: auto;
+}
+#menu {
+    background-color: white;
+    overflow: auto;
+    float: right;
+}
+#menu a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+}
+body {
+    background-color: white;
+}
+#container {
+    background-color: white;
+    width: 960px;
+    min-height: 500px;
+    margin: auto;
+}
+.inner_wrapper{
+        width: 960px;
+    min-height: 593px;
+    margin: auto;
+    position: relative;
+}
+.inner_wrapper2{
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+#header {
+    background-color: white;
+    padding: 5px;
+    overflow: auto;
+}
+#slider {
+    height: 593px;
+    background-image: url("patermoeskroen.jpg");
+    background-size: contain;
+    position: relative;
+    overflow: auto;
+}
+article {
+    height: 593px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.info_slider {
+    height: 227px;
+    width: 367px;
+    background-color: rgba(0,0,0,0.80);
+    position: absolute;
+    padding: 12px;
+    right: 0px;
+    bottom: 0px;
+}
+.info_slider h1, p {
+    opacity: 1;
+    color: white;
+}
+.info {
+    height: 366px;
+    width: 367px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hotpink;
+    position: absolute;
+    padding: 12px;
+    right: 0px;
+    top: 0px;
+}
+.b3 {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: hotpink;
+}
+.info h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.info h2{
+    font-family: 'Cardo', sans-serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+#nieuws_header{
+    background-color: rebeccapurple;
+    width: 593px;
+    margin-top: 20px;
+}
+#nieuws_header h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    color:white;
+}
+
+.bestellen {
+    height: 227px;
+    width: 367px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+}
+.bestellen:hover {
+    background-color: rebeccapurple;
+    color: black;
+}
+.bestellen h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+#footer{
+	font-size: 14px;
+    
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer a{
+	font-weight:normal;
+	color: gray;
+}
+
+#footer_blok1{
+    float: left;
+	min-height:50px;
+	width:200px;
+	z-index: 2;
+    margin-right: 10px
+}
+#footer_blok2{
+    
+    float: left;
+	min-height:50px;
+	width:310px;
+	z-index: 2;
+        margin-right: 10px
+}
+#footer_blok3{
+    
+    float: left;
+	min-height:50px;
+	width:200px;
+	z-index: 2;
+        margin-right: 10px
+}
+#footer{
+	padding: 20px;
+	min-height: 150px;
+	background-color: grey;
+	z-index: 1;
+	background-size: contain;
+}
+.footer_wrapper{
+    width: 960px;
+    margin: auto;
+}
+#footer p{
+    font-size: 18px;
+}

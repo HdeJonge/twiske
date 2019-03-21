@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #f6f3f3;
+}
+.menuwrap {
+  float: right;
+  width: 367px;
+  background-color: red;
+}
+
+.btn {
+  font-size:25px;
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+  padding: 15px;
+  float: right;
+}
+
+.btn p {
+  padding: 0px;
+  margin: 0px;
+}
+.btn-menu {
+  display: inline-block;
+}
+
+.btn-jeugd {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.btn-menu {
+  background-color: red;
+  color: white;
+}
+.searchbar {
+  text-align: center;
+  padding: 10px;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.searchbar label, .searchbar input, .searchbar select {
+  font-size: 24px;
+}
+
+.date {
+  font-size: 200%;
+}
+
+.date h1, .date h2, .date h3 {
+  margin: 0px;
+}
+
+
+
+.info h1 {
+  text-transform: uppercase;
+  margin: 0px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.info a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.info h2 {
+  margin: 0px;
+  font-family: 'Cardo', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.review {
+  padding: 15px;
+  font-style: italic;
+  font-size: 20px;
+}
